@@ -1,0 +1,10 @@
+-var titulos=['Título 1', "subtítulo 1","subtítulo 2","subtítulo 3",];
+-var usuario= ""
+-var enlaces=['Acerca','Noticias','Contacto']
+mixin caja(imagen, titulo, contenido)
+    .caja 
+        .caja__imagen: img(src="images/"+imagen)
+        .caja__contenido 
+            h3=titulo
+            p=contenido 
+            a.boton Leer más
