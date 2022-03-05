@@ -1,3 +1,4 @@
+@import "sassComponents/breakpoints";
 @import "sassComponents/bootstrap_reboot";
 @import "sassComponents/globales.scss";
 @import "sassComponents/perfiles.scss";
@@ -9,3 +10,8 @@
 @import "sassComponents/cajas.scss";
 @import "sassComponents/buscadores.scss";
 @import "sassComponents/filtros.scss";
+@import "sassComponents/headers";
+@import "sassComponents/footer";
+@import "sassComponents/homepages";
+@import "sassComponents/banners";
+@import "sassComponents/sidebars";

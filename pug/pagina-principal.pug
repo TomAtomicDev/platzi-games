@@ -1,7 +1,6 @@
-extend pugComponents/head.pug
-include pugComponents/mixins.pug
-block body
-	include pugComponents/header.pug
+extend pugComponents/plantilla.pug
+block contenidos
+	
 	main.contenedor--home
 		+caja--con-fondo-grande ('cyberpunk-2077.jpg', "Destacadas", 'Cyberpunk 2077 tiene tres prólogos distintos', 'En Cyberpunk 2077 los jugadores podrán seleccionar entre tres historias de origen diferentes, cada una presentando una ubicación de partida distinta para su personaje.')
 		+caja--con-fondo-pequena ('caja-rdr2','rdr2.jpg', "PS4", 'Red Dead Redemption 2 llegará a PC')
@@ -19,4 +18,4 @@ block body
 				+listado-categoria('1','GTA VI: Filtraciones que son bastante dudosas')
 				+listado-categoria('2','Secuela de The Legend of Zelda: Breath of the Wild anunciada en el E3 2019')
 				+listado-categoria('3','Red Dead Online recibe actualización masiva y sale de Beta')
-	include pugComponents/footer.pug
+	
