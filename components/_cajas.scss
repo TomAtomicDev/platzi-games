@@ -1,0 +1,23 @@
+@use '../components/globales' as *;
+
+.contenido {
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    @include contenedor;
+}
+
+.caja {
+    max-width: 430px;
+    @include caja-sombra;
+    &__contenido {
+        padding: 20px;
+        background-color: $color-claro;
+        span {
+            color: $color-secundario;
+            @include titulos($Fuente2);
+        }
+        h3 {
+            @include titulos($Fuente2);
+        }
+    }
+}

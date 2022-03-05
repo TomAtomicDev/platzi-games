@@ -1,0 +1,25 @@
+@use '../components/globales' as *;
+
+.encabezado--con-filtros {
+    @include contenedor;
+    h2 {
+        margin-top: 10px;        
+        font-size: 50px;
+        @include titulos($Fuente2);
+    }
+    .filtros {
+        width: 250px;
+        height: 75px;
+        padding: 20px;
+        margin-left:auto;
+        @include caja-sombra;
+        span {
+            @include titulos($Fuente2);            
+        }
+        a {
+            margin-left: 20px;
+            font-size: 25px;
+            color: $color-primario;
+        }
+    }
+}
